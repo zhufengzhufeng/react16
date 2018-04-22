@@ -1,1 +1,1 @@
-import './code/7.purcomponent';
+import './code/App';
