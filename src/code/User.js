@@ -15,8 +15,12 @@ export default class User extends Component {
                 </nav>
             </div>
             <div className="col-md-9">
-                <Route path="/user/add" component={Add}/>
-                <Route path="/user/list" component={List}/>
+                <Switch>
+                    <Route path="/user/" exact={true} component={Add} />
+                    <Route path="/user/add" component={Add} />
+                    <Route path="/user/list" component={List}/>
+                    <Redirect to="/user/"/>
+                </Switch>
             </div>
      </div>)
     }

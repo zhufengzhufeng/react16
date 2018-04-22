@@ -25,9 +25,9 @@ class App extends Component {
             <Index>
                 <Switch>
                     <Route path="/" exact={true} component={Home} />
-                    <Route path="/home" exact={true} component={Home} />
+                    <Route path="/home" exact={true} component={Home}  />
                     <Route path="/profile" component={Profile} />
-                    <Route path="/user" component={User} />
+                    <Route path="/user"  component={User} />
                     <Redirect to="/" />
                 </Switch>
             </Index>
