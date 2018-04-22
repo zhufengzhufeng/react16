@@ -17,7 +17,8 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import Home from './Home';
 import Profile from './Profile';
 import User from './User';
-import Index from './index'
+import Index from './index';
+import 'bootstrap/dist/css/bootstrap.css';
 class App extends Component {
     render() {
         return <Router>
